@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Unicase")
+
+body{
+	background-color: #290210;
+}
+.navbar-collapse{
+	background-color: blue;
+	color: white;
+	font-size: 30px;
+	margin: 5px;
+}
+.nav-justify{
+	background-color: ##F39DAE;
+	color: black;
+}
+.navbar-nav{
+	background-color: blue;
+	color: white;
+	position: fixed;
+}
+.nav-link{
+	color: black;
+}
+.jumbotron{
+	text-align: center;
+	background-image: url(assets/imagenes/fundo lo Marcoleta.JPG);
+	background-color: #290210;
+	color: black;
+	min-height: 300px;
+}
+.img-logo{
+	width:70px;
+	float: left;
+	margin-left: 60%;
+	float: left;
+	margin: 5px;
+}
+h1{
+	text-align: center;
+	border-top: -30px;
+	font-family: 'Cormorant Unicase', serif;
+}
+.display-4{
+	text-align: center;
+	color: white;
+}
+.img-fluid{ 
+	max-width: 100%; height: auto;
+}
+li-1{
+	list-style: none;
+	font-size: 20px;
+	text-align: justify;
+}
+li{
+	list-style: none;
+	font-size: 20px;
+}
+p{
+	text-align: justify;
+	font-size: 20px;
+}
+.row{
+	background: #C5E5EB;
+}
+iframe{
+	width: 100%;
+	height: 30%;
+}
