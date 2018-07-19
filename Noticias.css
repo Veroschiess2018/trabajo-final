@@ -7,7 +7,7 @@
 	margin: 5px;
 }
 .nav-justify{
-	background-color: ##F39DAE;
+	background-color: #F39DAE;
 	color: black;
 }
 .navbar-nav{
@@ -63,10 +63,25 @@ p{
 }
 .d-block{
 	width: 80%;
-	height: 600px;
+	height: 500px;
 }
+.container{
+	background-color: #290210;
+	width: 100%;
+	height: 500px;
+	border-top: 10px;
+	max-width: 1600px;
+	max-height: 1200px;
+	background-size: 100%;
+}
+
 .row{
-	background: #C5E5EB;
+	background-color:#E3ECEC;
+	color: black;
+	width: 1200px;
+	height: 450px;
+	margin-bottom: 10px;
+	margin-left: 40px;
 }
 iframe{
 	width: 100%;

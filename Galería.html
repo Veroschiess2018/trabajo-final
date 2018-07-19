@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="Galería.css">
-
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <title>Galería de Imagenes</title>
   </head>
 <body>
@@ -18,28 +18,32 @@
      </div>
     <ul class="nav justify-content-end">
   <li class="nav-item">
-        <a class="nav-link" href="Principal.html">Principal<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="Principal.html">Principal</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="Historia.html">Historia</a>
+        <a class="nav-link" href="Historia.html">Historia</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="Noticias.html">Noticias</a>
+        <a class="nav-link" href="Noticias.html">Noticias</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="Artistas.html">Artistas</a>
+        <a class="nav-link" href="Artistas.html">Artistas</a>
       </li>
       <li class="nav-item">
         <a class="nav-link disabled" href="Galería.html">Galería</a>
       </li>
+      <script type="text/javascript">
+             $(".nav-link").on("click", function(){
+              alert ("QUILICURA AVANZA!!!")
+             });
+           </script>
     </ul>
   </div> 
 </nav>
-
 <div class="jumbotron">
+  <img src="assets/imagenes/logo.jpeg" class="img-fluid">
   <h1 class="display-4">Galería de Imagenes</h1>
-    <img src="#" class="img-fluid" alt="" >
-  <h1 class="display-4">Quilicura Patrimonio Cultural de Santiago</h1>
+     <h1 class="display-4">Quilicura Patrimonio Cultural de Santiago</h1>
      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -55,14 +59,18 @@
     </div>
     </div>
   </div>
-  
-  <button type="button" class="btn-primary btn-lg">CONTÁCTAME</button></a>
+    <button type="button" class="btn-primary btn-lg">CONTÁCTAME</button></a>
+  <script type="text/javascript">
+    $(".btn-primary").ready(handler)
+    $(".btn-primary").ready(handler)
+    $(handler)
+  </script>
+
 </div>
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
@@ -89,10 +97,10 @@
 
 
   <div class="card">
-    <img class="card-img-top" src="assets/imagenes/plaza-quilicura-1929.jpg">
+    <img class="card-img-top" src="assets/imagenes/quilicura portada 2.JPG">
       <div class="card-body">
-        <h5 class="card-title">Plaza de Quilicura</h5>
-          <p class="card-text"><small class="text-muted">Antés del 1900</small></p>
+        <h5 class="card-title">Senderos</h5>
+          <p class="card-text"><small class="text-muted">Caminos de Quilicura</small></p>
        </div>
   </div>
 

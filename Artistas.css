@@ -18,6 +18,7 @@
 	background-color:  #290210;
 	color: white;
 	background-size: 100%;
+	width: 
 }
 .img-fluid{
 	width:60px;
@@ -57,7 +58,7 @@ p{
 	height: 600px;
 }
 .row{
-	background: #C5E5EB;
+	
 }
 iframe{
 	width: 100%;
@@ -68,7 +69,7 @@ iframe{
 }
 .container{
 	background-color: #290210;
-	width: 1500px;
+	width: 1300px;
 	height: 600px;
 	border-top: 10px;
 	max-width: 1600px;
@@ -76,9 +77,14 @@ iframe{
 	background-size: 100%;
 }
 .row{
+	background: #C5E5EB;
 	width: 1200px;
 	height: 550px;
 	margin-bottom: 20px;
 	margin-left: 40px;
 	margin-top: 20px;
+}
+.carousel-slide{
+	width: 1250px;
+	height: 550px;
 }

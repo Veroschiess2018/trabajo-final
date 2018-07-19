@@ -21,6 +21,7 @@ body{
 .nav-link{
 	color: black;
 }
+
 .jumbotron{
 	text-align: center;
 	background-image: url(assets/imagenes/muninoche.jpg);
@@ -58,10 +59,12 @@ h1{
 	
 }
 .img-fluid{ 
-	max-width: 100%; height: auto;
+	max-width: 100%; 
+	height: auto;
 }
 
 li{
+	font-size: 20px;
 	list-style: none;
 }
 p{
@@ -79,4 +82,7 @@ p{
 iframe{
 	width: 100%;
 	height: 30%;
+
+.form-group{
+	font-size: 2px;
 }

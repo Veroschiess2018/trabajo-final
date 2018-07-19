@@ -27,6 +27,16 @@ body{
 	text-align: center;
 	margin-top: 5px;
 }
+.img-fluid{
+	width:70px;
+	float: left;
+	margin: 5px;
+	border-top: 0;
+}
+.d-block{
+	width: 1000px;
+	height: 300px;
+}
 p{
 	color: white;
     text-align: center;
@@ -47,7 +57,7 @@ p{
 	background-color:#290210;
 	color: white;
 	border-color: #d8d8d8;
-
+	margin-left: 45%;
 }
 
 .section-1{
