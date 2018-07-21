@@ -18,6 +18,7 @@
 	background-color: #52AB52;
 	color: white;
 	background-size: 100%;
+	min-height: 700px;
 }
 .img-fluid{
 	width:60px;

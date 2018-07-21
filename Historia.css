@@ -4,7 +4,6 @@ body{
 	background-color: #075507;
 }
 .navbar-collapse{
-	background-color: ;
 	color: white;
 	font-size: 30px;
 	margin: 5px;
@@ -34,6 +33,15 @@ h1{
 	text-align: center;
 	border-top: -30px;
 	font-family: 'Cormorant Unicase', serif;
+}
+h2{
+	text-align: center;
+}
+h3{
+	text-align: center;
+}
+h4{
+	text-align: center;
 }
 .display-4{
 	text-align: center;
@@ -65,10 +73,10 @@ iframe{
 }
 .row{
 	background-color:#F9F97E;
-	margin: 0px;
+	margin: 0 auto;
 	margin-top: -32px;
 	margin-bottom: 0px;
-
+	max-width: 1600px;
 
 }
 .container{

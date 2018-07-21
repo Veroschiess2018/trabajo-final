@@ -5,13 +5,18 @@ body{
 .row{
 	clear: both;
 }
+.navbar-collapse{
+	color: white;
+	font-size: 30px;
+	margin: 5px;
+}
+.navbar-nav{
+	color: white;
+	position: fixed;
+}
 .nav-link{
 	color: black;
-	font-size: 15px;
-	margin-left: 100px;
-	float: right;
 }
-
 .jumbotron{
 	text-align: center;
 	background-repeat: no-repeat;

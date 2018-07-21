@@ -4,7 +4,6 @@
 	background-color:#075507; 
 	} 
 .nav-justify{
-	background-color: #F39DAE;
 	color: black;
 }
 .navbar-collapse{
@@ -12,11 +11,7 @@
 	font-size: 30px;
 	margin: 5px;
 }
-.navbar-nav{
-	background-color: #C5EBEB;
-	color: #F39DAE;
-	position: fixed;
-}
+
 .nav-link{
 	color: black;
 }
@@ -24,12 +19,10 @@
 .jumbotron{
 	text-align: center;
 	background-image: url(assets/imagenes/muninoche.jpg);
-	background-color: #E79DB4;
 	background-size: 100%;
 	color: black;
-	height: 750px;
 	background-repeat: no-repeat;
-	
+	min-height: 650px;
 }
 .img-fluid{
 	width:70px;
@@ -86,7 +79,8 @@ iframe{
 .buttom{
 	font-size: 15px;
 }
-.card{
+.card-body{
+	height: 200px;
 	font-size: 20px;
 }
 .container{
@@ -99,7 +93,7 @@ iframe{
 
 }
 .container-contenedor{
-	height: 700px;
+	height: 800px;
 	margin-top: -0 auto;
 }
 .row{
