@@ -1,20 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Cormorant+Unicase")
 
 body{
-	background-color: #290210;
+	background-color: #075507;
 }
 .navbar-collapse{
-	background-color: blue;
+	background-color: ;
 	color: white;
 	font-size: 30px;
 	margin: 5px;
 }
-.nav-justify{
-	background-color: ##F39DAE;
-	color: black;
-}
 .navbar-nav{
-	background-color: blue;
 	color: white;
 	position: fixed;
 }
@@ -24,9 +19,9 @@ body{
 .jumbotron{
 	text-align: center;
 	background-image: url(assets/imagenes/fundo lo Marcoleta.JPG);
-	background-color: #290210;
+	background-color: #52AB52;
 	color: black;
-	min-height: 300px;
+	height: 550px;
 }
 .img-logo{
 	width:70px;
@@ -44,8 +39,12 @@ h1{
 	text-align: center;
 	color: white;
 }
-.img-fluid{ 
-	max-width: 100%; height: auto;
+.img{ 
+	width:60px;
+	float: left;
+	margin-left: 60%;
+	float: left;
+	margin: 20px;
 }
 li-1{
 	list-style: none;
@@ -60,10 +59,27 @@ p{
 	text-align: justify;
 	font-size: 20px;
 }
-.row{
-	background: #C5E5EB;
-}
 iframe{
 	width: 100%;
-	height: 30%;
+	height: 100%;
+}
+.row{
+	background-color:#F9F97E;
+	margin: 0px;
+	margin-top: -32px;
+	margin-bottom: 0px;
+
+
+}
+.container{
+	background-color: #52AB52;
+	width: 100%;
+	height: 600px;
+	margin-left: 0px;
+	max-width: 1600px;
+
+}
+.container-contenedor{
+
+	margin-top: -0 auto;
 }

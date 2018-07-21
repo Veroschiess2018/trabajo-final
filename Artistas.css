@@ -15,10 +15,9 @@
 }
 .jumbotron{
 	text-align: center;
-	background-color:  #290210;
+	background-color: #52AB52;
 	color: white;
 	background-size: 100%;
-	width: 
 }
 .img-fluid{
 	width:60px;
@@ -62,29 +61,27 @@ p{
 }
 iframe{
 	width: 100%;
-	height: 30%;
+	height: 100%;
 }
 .display-4{
 	float: : center;
 }
 .container{
-	background-color: #290210;
-	width: 1300px;
+	background-color: #52AB52;
+	width: 100%;
 	height: 600px;
-	border-top: 10px;
 	max-width: 1600px;
-	max-height: 1200px;
-	background-size: 100%;
 }
 .row{
-	background: #C5E5EB;
-	width: 1200px;
-	height: 550px;
-	margin-bottom: 20px;
-	margin-left: 40px;
-	margin-top: 20px;
+	background:#F9F97E;
+	margin: 0px;
+	margin-bottom:  0px;
+	margin-top: -32px;
 }
 .carousel-slide{
 	width: 1250px;
 	height: 550px;
+}
+.card{
+	font-size: 20px;
 }

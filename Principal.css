@@ -1,14 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Cormorant+Unicase")
 
-body{
-	background-color:#290210; 
+.body{
+	background-color:#075507; 
 	} 
 .nav-justify{
 	background-color: #F39DAE;
 	color: black;
 }
 .navbar-collapse{
-	background-color: black;
 	color: white;
 	font-size: 30px;
 	margin: 5px;
@@ -28,17 +27,15 @@ body{
 	background-color: #E79DB4;
 	background-size: 100%;
 	color: black;
-	min-height: 700px;
+	height: 750px;
 	background-repeat: no-repeat;
 	
 }
-.img-logo{
-	width:80px;
-	height: 80px;
-	float: left;
-	margin-left: 60%;
+.img-fluid{
+	width:70px;
 	float: left;
 	margin: 5px;
+	border-top: 0;
 }
 .display-4{
 	color: white;
@@ -59,8 +56,11 @@ h1{
 	
 }
 .img-fluid{ 
-	max-width: 100%; 
-	height: auto;
+	width:60px;
+	float: left;
+	margin-left: 60%;
+	float: left;
+	margin: 20px;
 }
 
 li{
@@ -81,8 +81,30 @@ p{
 }
 iframe{
 	width: 100%;
-	height: 30%;
+	height: 100%;
+}
+.buttom{
+	font-size: 15px;
+}
+.card{
+	font-size: 20px;
+}
+.container{
+	background-color: #52AB52;
+	width: 100%;
+	height: 700px;
+	margin-left: 0px;
+	max-width: 1600px;
+	margin-top:10px;
 
-.form-group{
-	font-size: 2px;
+}
+.container-contenedor{
+	height: 700px;
+	margin-top: -0 auto;
+}
+.row{
+	background:#F9F97E;
+	margin: 0px;
+	margin-bottom:  0px;
+	margin-top: -32px;
 }

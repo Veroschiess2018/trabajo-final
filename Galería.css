@@ -1,14 +1,13 @@
+
 body{
-	background-color: #290210;
-
+	background-color: #52AB52;
 }
-
 .row{
 	clear: both;
 }
 .nav-link{
 	color: black;
-	font-size: 20px;
+	font-size: 15px;
 	margin-left: 100px;
 	float: right;
 }
@@ -17,7 +16,7 @@ body{
 	text-align: center;
 	background-repeat: no-repeat;
 	border-top: 0 auto;
-	background-color: #3C071C;
+	background-color: #52AB52;
 }
 .lead{
 	color: black;
@@ -54,7 +53,7 @@ p{
 
 }
 .btn-primary{
-	background-color:#290210;
+	background-color:#095D0A;
 	color: white;
 	border-color: #d8d8d8;
 	margin-left: 45%;
